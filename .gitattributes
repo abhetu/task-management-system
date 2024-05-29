@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
+# Set text=auto to handle line endings correctly
 * text=auto
+
+# Declare files that are binary
+*.jpg binary
+*.png binary
+*.exe binary
+
+# Specify merge driver for specific file types (if needed)
+# No specific merge drivers are specified for this project
